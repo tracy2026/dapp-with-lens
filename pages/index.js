@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import { useQuery } from "@apollo/client";
-import recommendedProfilesQuery from "./gql/recommendProfiles.js";
+import recommendedProfilesQuery from "../gql/recommendProfiles.js";
 import Profile from "../components/Profile.js";
 
 const inter = Inter({ subsets: ["latin"] });
